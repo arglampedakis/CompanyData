@@ -15,7 +15,7 @@
 1. Εγκατάσταση του MySQL Workbench 8.0 συμπεριλαμβανομένου και του MySQL server το οποίο θα βρείτε [εδώ](https://dev.mysql.com/downloads/mysql/). 
 2. Δημιουργίστε ένα `Standard TCP/IP` Connection με Hostname: `localhost` και Port:`3306`
 3. Εκτελέστε τα queries που θα βρείτε στο αρχείο: 
->Q&R\QnrJavaProject\src\main\resources\Q&R-Query.sql
+>\src\main\resources\DBqueries.sql
 
 4. Εγκατάσταση ενώς IDE (π.χ. [Netbeans](https://netbeans.org) ή [IntelliJ](https://www.jetbrains.com/idea/)) καθώς επίσης και του [Apache Tomcat v9.0.35](http://tomcat.apache.org). 
 5. Στη συνέχεια συνδέστε τον Apache Tomcat με το IDE. (π.χ. για το Netbeans θα βρείτε οδηγίες [εδώ](https://javapointers.com/how-to/add-tomcat-server-netbeans/).
