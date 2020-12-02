@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+
+  <xs:complexType name="departmentDto">
+    <xs:annotation>
+      <xs:documentation><![CDATA[(author): RG]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="deptid" type="xs:short"/>
+      <xs:element minOccurs="0" name="dname" type="xs:string"/>
+      <xs:element minOccurs="0" name="locid" type="xs:short"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="deptLocationDto">
+    <xs:annotation>
+      <xs:documentation><![CDATA[(author): RG]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="locid" type="xs:short"/>
+      <xs:element minOccurs="0" name="locname" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="employeeDto">
+    <xs:annotation>
+      <xs:documentation><![CDATA[(author): RG]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="comm" type="xs:decimal"/>
+      <xs:element minOccurs="0" name="deptid" type="xs:short"/>
+      <xs:element minOccurs="0" name="empid" type="xs:short"/>
+      <xs:element minOccurs="0" name="firstname" type="xs:string"/>
+      <xs:element minOccurs="0" name="hiredate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="job" type="xs:string"/>
+      <xs:element minOccurs="0" name="lastname" type="xs:string"/>
+      <xs:element minOccurs="0" name="mngid" type="xs:short"/>
+      <xs:element minOccurs="0" name="salary" type="xs:decimal"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
